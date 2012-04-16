@@ -8,7 +8,7 @@
 
 #import "MDSAppDelegate.h"
 
-#import "MDSViewController.h"
+#import "MDSGeocodingViewController.h"
 
 @implementation MDSAppDelegate
 
@@ -19,9 +19,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-  self.viewController = [[MDSViewController alloc] initWithNibName:@"MDSViewController" bundle:nil];
+  self.viewController = [MDSGeocodingViewController viewController];
   self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
+  [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class MDSViewController;
+@class MDSGeocodingViewController;
 
 @interface MDSAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) MDSViewController *viewController;
+@property (strong, nonatomic) MDSGeocodingViewController *viewController;
 
 @end

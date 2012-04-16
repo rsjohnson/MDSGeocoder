@@ -13,8 +13,11 @@
 		94D5F090153CD147006E820E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94D5F08E153CD147006E820E /* InfoPlist.strings */; };
 		94D5F092153CD147006E820E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D5F091153CD147006E820E /* main.m */; };
 		94D5F096153CD147006E820E /* MDSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D5F095153CD147006E820E /* MDSAppDelegate.m */; };
-		94D5F099153CD147006E820E /* MDSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D5F098153CD147006E820E /* MDSViewController.m */; };
-		94D5F09C153CD147006E820E /* MDSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94D5F09A153CD147006E820E /* MDSViewController.xib */; };
+		94D5F0A4153CD18C006E820E /* MDSGeocodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D5F0A3153CD18C006E820E /* MDSGeocodingViewController.m */; };
+		94D5F0AC153CD206006E820E /* MDSGeocodingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94D5F0AB153CD206006E820E /* MDSGeocodingViewController.xib */; };
+		94D5F0AE153CD2BA006E820E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D5F0AD153CD2BA006E820E /* CoreLocation.framework */; };
+		94D5F0B0153CD2BE006E820E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D5F0AF153CD2BE006E820E /* MapKit.framework */; };
+		94D5F0B2153CD2C4006E820E /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D5F0B1153CD2C4006E820E /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,18 @@
 		94D5F085153CD147006E820E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		94D5F087153CD147006E820E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		94D5F089153CD147006E820E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		94D5F08D153CD147006E820E /* MDSGeocoderViewController-Info.plist */ = {isa = PBXFileReference; path = "MDSGeocoderViewController-Info.plist"; sourceTree = "<group>"; };
+		94D5F08D153CD147006E820E /* MDSGeocoderViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MDSGeocoderViewController-Info.plist"; sourceTree = "<group>"; };
 		94D5F08F153CD147006E820E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94D5F091153CD147006E820E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		94D5F093153CD147006E820E /* MDSGeocoderViewController-Prefix.pch */ = {isa = PBXFileReference; path = "MDSGeocoderViewController-Prefix.pch"; sourceTree = "<group>"; };
-		94D5F094153CD147006E820E /* MDSAppDelegate.h */ = {isa = PBXFileReference; path = MDSAppDelegate.h; sourceTree = "<group>"; };
+		94D5F093153CD147006E820E /* MDSGeocoderViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDSGeocoderViewController-Prefix.pch"; sourceTree = "<group>"; };
+		94D5F094153CD147006E820E /* MDSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDSAppDelegate.h; sourceTree = "<group>"; };
 		94D5F095153CD147006E820E /* MDSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSAppDelegate.m; sourceTree = "<group>"; };
-		94D5F097153CD147006E820E /* MDSViewController.h */ = {isa = PBXFileReference; path = MDSViewController.h; sourceTree = "<group>"; };
-		94D5F098153CD147006E820E /* MDSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSViewController.m; sourceTree = "<group>"; };
-		94D5F09B153CD147006E820E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDSViewController.xib; sourceTree = "<group>"; };
+		94D5F0A2153CD18C006E820E /* MDSGeocodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSGeocodingViewController.h; sourceTree = "<group>"; };
+		94D5F0A3153CD18C006E820E /* MDSGeocodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSGeocodingViewController.m; sourceTree = "<group>"; };
+		94D5F0AB153CD206006E820E /* MDSGeocodingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDSGeocodingViewController.xib; sourceTree = "<group>"; };
+		94D5F0AD153CD2BA006E820E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		94D5F0AF153CD2BE006E820E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		94D5F0B1153CD2C4006E820E /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94D5F0B2153CD2C4006E820E /* AddressBookUI.framework in Frameworks */,
+				94D5F0B0153CD2BE006E820E /* MapKit.framework in Frameworks */,
+				94D5F0AE153CD2BA006E820E /* CoreLocation.framework in Frameworks */,
 				94D5F086153CD147006E820E /* UIKit.framework in Frameworks */,
 				94D5F088153CD147006E820E /* Foundation.framework in Frameworks */,
 				94D5F08A153CD147006E820E /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +59,9 @@
 		94D5F076153CD146006E820E = {
 			isa = PBXGroup;
 			children = (
+				94D5F0AB153CD206006E820E /* MDSGeocodingViewController.xib */,
+				94D5F0A2153CD18C006E820E /* MDSGeocodingViewController.h */,
+				94D5F0A3153CD18C006E820E /* MDSGeocodingViewController.m */,
 				94D5F08B153CD147006E820E /* MDSGeocoderViewController */,
 				94D5F084153CD147006E820E /* Frameworks */,
 				94D5F082153CD147006E820E /* Products */,
@@ -67,6 +79,9 @@
 		94D5F084153CD147006E820E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				94D5F0B1153CD2C4006E820E /* AddressBookUI.framework */,
+				94D5F0AF153CD2BE006E820E /* MapKit.framework */,
+				94D5F0AD153CD2BA006E820E /* CoreLocation.framework */,
 				94D5F085153CD147006E820E /* UIKit.framework */,
 				94D5F087153CD147006E820E /* Foundation.framework */,
 				94D5F089153CD147006E820E /* CoreGraphics.framework */,
@@ -79,9 +94,6 @@
 			children = (
 				94D5F094153CD147006E820E /* MDSAppDelegate.h */,
 				94D5F095153CD147006E820E /* MDSAppDelegate.m */,
-				94D5F097153CD147006E820E /* MDSViewController.h */,
-				94D5F098153CD147006E820E /* MDSViewController.m */,
-				94D5F09A153CD147006E820E /* MDSViewController.xib */,
 				94D5F08C153CD147006E820E /* Supporting Files */,
 			);
 			path = MDSGeocoderViewController;
@@ -151,7 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94D5F090153CD147006E820E /* InfoPlist.strings in Resources */,
-				94D5F09C153CD147006E820E /* MDSViewController.xib in Resources */,
+				94D5F0AC153CD206006E820E /* MDSGeocodingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +176,7 @@
 			files = (
 				94D5F092153CD147006E820E /* main.m in Sources */,
 				94D5F096153CD147006E820E /* MDSAppDelegate.m in Sources */,
-				94D5F099153CD147006E820E /* MDSViewController.m in Sources */,
+				94D5F0A4153CD18C006E820E /* MDSGeocodingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,14 +189,6 @@
 				94D5F08F153CD147006E820E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		94D5F09A153CD147006E820E /* MDSViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				94D5F09B153CD147006E820E /* en */,
-			);
-			name = MDSViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
