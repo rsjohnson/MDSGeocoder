@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94D5F086153CD147006E820E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D5F085153CD147006E820E /* UIKit.framework */; };
+		94D5F088153CD147006E820E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D5F087153CD147006E820E /* Foundation.framework */; };
+		94D5F08A153CD147006E820E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D5F089153CD147006E820E /* CoreGraphics.framework */; };
+		94D5F090153CD147006E820E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94D5F08E153CD147006E820E /* InfoPlist.strings */; };
+		94D5F092153CD147006E820E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D5F091153CD147006E820E /* main.m */; };
+		94D5F096153CD147006E820E /* MDSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D5F095153CD147006E820E /* MDSAppDelegate.m */; };
+		94D5F099153CD147006E820E /* MDSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D5F098153CD147006E820E /* MDSViewController.m */; };
+		94D5F09C153CD147006E820E /* MDSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94D5F09A153CD147006E820E /* MDSViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94D5F081153CD147006E820E /* MDSGeocoderViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDSGeocoderViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D5F085153CD147006E820E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94D5F087153CD147006E820E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94D5F089153CD147006E820E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94D5F08D153CD147006E820E /* MDSGeocoderViewController-Info.plist */ = {isa = PBXFileReference; path = "MDSGeocoderViewController-Info.plist"; sourceTree = "<group>"; };
+		94D5F08F153CD147006E820E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94D5F091153CD147006E820E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94D5F093153CD147006E820E /* MDSGeocoderViewController-Prefix.pch */ = {isa = PBXFileReference; path = "MDSGeocoderViewController-Prefix.pch"; sourceTree = "<group>"; };
+		94D5F094153CD147006E820E /* MDSAppDelegate.h */ = {isa = PBXFileReference; path = MDSAppDelegate.h; sourceTree = "<group>"; };
+		94D5F095153CD147006E820E /* MDSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSAppDelegate.m; sourceTree = "<group>"; };
+		94D5F097153CD147006E820E /* MDSViewController.h */ = {isa = PBXFileReference; path = MDSViewController.h; sourceTree = "<group>"; };
+		94D5F098153CD147006E820E /* MDSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSViewController.m; sourceTree = "<group>"; };
+		94D5F09B153CD147006E820E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDSViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94D5F07E153CD147006E820E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D5F086153CD147006E820E /* UIKit.framework in Frameworks */,
+				94D5F088153CD147006E820E /* Foundation.framework in Frameworks */,
+				94D5F08A153CD147006E820E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94D5F076153CD146006E820E = {
+			isa = PBXGroup;
+			children = (
+				94D5F08B153CD147006E820E /* MDSGeocoderViewController */,
+				94D5F084153CD147006E820E /* Frameworks */,
+				94D5F082153CD147006E820E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94D5F082153CD147006E820E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94D5F081153CD147006E820E /* MDSGeocoderViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94D5F084153CD147006E820E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94D5F085153CD147006E820E /* UIKit.framework */,
+				94D5F087153CD147006E820E /* Foundation.framework */,
+				94D5F089153CD147006E820E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94D5F08B153CD147006E820E /* MDSGeocoderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				94D5F094153CD147006E820E /* MDSAppDelegate.h */,
+				94D5F095153CD147006E820E /* MDSAppDelegate.m */,
+				94D5F097153CD147006E820E /* MDSViewController.h */,
+				94D5F098153CD147006E820E /* MDSViewController.m */,
+				94D5F09A153CD147006E820E /* MDSViewController.xib */,
+				94D5F08C153CD147006E820E /* Supporting Files */,
+			);
+			path = MDSGeocoderViewController;
+			sourceTree = "<group>";
+		};
+		94D5F08C153CD147006E820E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94D5F08D153CD147006E820E /* MDSGeocoderViewController-Info.plist */,
+				94D5F08E153CD147006E820E /* InfoPlist.strings */,
+				94D5F091153CD147006E820E /* main.m */,
+				94D5F093153CD147006E820E /* MDSGeocoderViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94D5F080153CD147006E820E /* MDSGeocoderViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D5F09F153CD147006E820E /* Build configuration list for PBXNativeTarget "MDSGeocoderViewController" */;
+			buildPhases = (
+				94D5F07D153CD147006E820E /* Sources */,
+				94D5F07E153CD147006E820E /* Frameworks */,
+				94D5F07F153CD147006E820E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDSGeocoderViewController;
+			productName = MDSGeocoderViewController;
+			productReference = 94D5F081153CD147006E820E /* MDSGeocoderViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94D5F078153CD147006E820E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MDS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "mobile data solutions";
+			};
+			buildConfigurationList = 94D5F07B153CD147006E820E /* Build configuration list for PBXProject "MDSGeocoderViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94D5F076153CD146006E820E;
+			productRefGroup = 94D5F082153CD147006E820E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94D5F080153CD147006E820E /* MDSGeocoderViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94D5F07F153CD147006E820E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D5F090153CD147006E820E /* InfoPlist.strings in Resources */,
+				94D5F09C153CD147006E820E /* MDSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94D5F07D153CD147006E820E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D5F092153CD147006E820E /* main.m in Sources */,
+				94D5F096153CD147006E820E /* MDSAppDelegate.m in Sources */,
+				94D5F099153CD147006E820E /* MDSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94D5F08E153CD147006E820E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94D5F08F153CD147006E820E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94D5F09A153CD147006E820E /* MDSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94D5F09B153CD147006E820E /* en */,
+			);
+			name = MDSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94D5F09D153CD147006E820E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94D5F09E153CD147006E820E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94D5F0A0153CD147006E820E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDSGeocoderViewController/MDSGeocoderViewController-Prefix.pch";
+				INFOPLIST_FILE = "MDSGeocoderViewController/MDSGeocoderViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94D5F0A1153CD147006E820E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDSGeocoderViewController/MDSGeocoderViewController-Prefix.pch";
+				INFOPLIST_FILE = "MDSGeocoderViewController/MDSGeocoderViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94D5F07B153CD147006E820E /* Build configuration list for PBXProject "MDSGeocoderViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D5F09D153CD147006E820E /* Debug */,
+				94D5F09E153CD147006E820E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D5F09F153CD147006E820E /* Build configuration list for PBXNativeTarget "MDSGeocoderViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D5F0A0153CD147006E820E /* Debug */,
+				94D5F0A1153CD147006E820E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94D5F078153CD147006E820E /* Project object */;
+}
