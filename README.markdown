@@ -6,21 +6,26 @@ A view controller which allows the user to either long press a map and get back 
 
 That functionality isn't the most useful thing but it's a starting point to tie into other functionality in your app.
 
-There's a xcode project so you can just check it out if you want. Instructions on integrating into your app.
+There's a xcode project so you can just check it out if you want. 
 
 ###Requirements
 A Deployment Target >= iOS 5
 
 ###How To Use
 1 - Link Against Frameworks
+
 * CoreLocation
 * MapKit
 * AddressBookUI
+
 2 - Copy the Files to Your Project
+
 * MDSGeocodingViewController.m
 * MDSGeocodingViewController.h
 * MDSGeocodingViewController.xib
+
 3 - Instantiate a View Controller and Do What You With It.
+
 e.g. [MDSGeocodingViewController viewController];
 
 ###License
